@@ -1,0 +1,151 @@
+.fondo-header{
+    background-image: url("black-technology.jpg");
+    width: 100%;
+}
+
+.imagen{
+    width: 80%;
+    border-radius: 50%;
+    text-align: right;
+    margin-top: 5%;
+    display: inline-block;
+    border-color: black;
+    border-style:solid;
+    border-width:2px;
+    margin-bottom: 5%;
+}
+
+.encabezado{
+    font: georgia;
+    line-height: 120%;
+    color: #5b1f00;
+    font-size: 85%;
+    margin-top: 2%;
+    text-align: left;
+    display: inline-block;
+    
+}
+.nombre{
+    line-height: 120%;
+    color: black;
+    font-size: 85%;
+    margin-top: 1%;
+    text-align: left;
+}
+
+.icons{
+    width: 30px;
+    background-color: rgb(216, 213, 209);
+    border-color: rgb(165, 144, 106);
+    border-style:solid;
+    border-width:1px;
+    text-align: left;
+    border-radius: 50%;
+}
+
+.barra-nav {
+    text-align: center;
+    color: rgb(40, 54, 19);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(226, 222, 216, 0.73);
+}
+
+.title1{
+    color: rgb(62, 83, 31);
+    text-decoration:none;
+}
+
+
+.sombreado{
+    box-shadow: 5px 5px 0;      /* Sombra sin desenfoque */
+    box-shadow: 5px 5px 2px;    /* Sombra con ligero desenfoque */
+    box-shadow: 5px 5px 10px;   /* Sombra desenfocada */
+    box-shadow: 5px 5px 40px;   /* Sombra con un desenfoque casi disipado */
+}
+#iconos-info{
+    width: 20%;
+    margin-block: 3%;
+    margin-left: 4%;
+    
+}
+main{
+    font: verdana;
+    line-height: 150%;
+    color: black;
+    font-size: 100%;
+    margin-top: 2%;
+    text-align: left;
+}
+.habilidades{
+    font: verdana;
+    line-height: 120%;
+    color: black;
+    font-size: 90%;
+    margin-top: 2%;
+    text-align: left;
+}
+.logos-info{
+    background-color: olive ;
+    text-align: right;
+}
+
+.row{
+    margin: 0px 60px 0px 60px;
+}
+.detalles{
+    display: none;   
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: absolute;
+    top: 61%;
+    left: 5%;
+    z-index: 2;
+  
+}
+
+.imagen-poput{
+    border-color: black;
+    border-style:solid;
+    border-width:1px;
+    margin-bottom: 5%;
+}
+
+.bloque{
+    display: none;
+}
+
+#botonGrande{
+    margin-left: 48%;
+}
+.carrusel{
+    width: 100%;
+    margin-bottom: -15%;
+    padding-bottom: 20%; 
+    text-align: center;
+}
+
+.fondo-carrusel{
+    background-color: #5b1f00;
+}
+
+.h-contact {
+    color: #088318;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #088318;
+}
+
+footer{
+    background: rgb(2,38,2);
+    background: radial-gradient(circle, rgba(2,38,2,1) 0%, rgba(46,4,4,1) 100%);
+    width: 100%;
+    color: white;
+}
+.nav-fo{
+    color: white;
+    text-align: center;
+}
