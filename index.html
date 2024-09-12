@@ -14,7 +14,7 @@
 <!-- CABECERA DE PÁGINA --------------------------------------------------------->
     <header>
         <div class="fondo-header">
-            <div class="container-fluid">
+            <div class="container-fluid" style="margin-top:40px;">
                 <div class="row">
                     <div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2"> <img src="assets/img/foto.jpg" alt="" class="imagen"></div>
                     <div class="col-8 col-sm-9 col-md-9 col-lg-10 col-xl-10 nombre">
@@ -41,9 +41,9 @@
             </div> 
 
 <!--BARRA DE NAVEGACION --------------------------------------------------------->
-            <div class="container-fluid">
+            <div class="container-fluid fixed-top barra-nav">
               <ul class="nav justify-content-center">
-                <li class="nav-item">
+                <li class="nav-item" >
                   <a class="nav-link barra-nav" aria-current="page" href="#" id="inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
@@ -121,41 +121,42 @@
 
 <!--MIS PROYECTOS-------------------------------------------------------------------->
         <div class="container bloque sombreado" id="mis-proyectos">   <!--Cuerpo de la página-->
-            <div class="container-fluid"><br><button type="button" class="btn-close" aria-label="Close"></button><h3 class="title1" style="margin-left: 8%;">Mis proyectos</h3><br></div>
+            <div class="container-fluid"><div class="d-grid gap-2 d-md-flex justify-content-md-end"><button type="button" class="btn-close  me-md-2 mt-2" aria-label="Close" id="inicial1"></button>
+            </div><h3 class="title1" style="margin-left: 8%;">Mis proyectos</h3><br></div>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col"> <!--Caja Contenedora FORESTAL RIO CLARO-->
-              <div class="card h-100">
-                  <img src="assets/img/forestal-rio-claro.png" class="card-img-top" alt="Forestal Rio Claro">
-                  <div class="card-body">
-                    <h5 class="card-title title1">Forestal Rio Claro</h5>
+              <div class="card h-100"><a href="https://forestalrioclaro.cl/">
+                  <img src="assets/img/forestal-rio-claro.png" class="card-img-top" alt="Forestal Rio Claro"></a>
+                  <div class="card-body"><a href="https://forestalrioclaro.cl/">
+                    <h5 class="card-title title1">Forestal Rio Claro</h5></a>
                     <p class="card-text">Proyecto realizado para Forestal Rio Claro, en la empresa Tutelkan Ltda. Software ERP implementado con Modelo Vista Controlador.</p>
                   </div>
-                  <div class="card-footer">
-                    <button type="submit" class="btn btn-success btn-sm" id="rioclaro">Ver más</button>
+                  <div class="card-footer" id="rioclaro">
+                    <button type="button" class="btn btn-warning"><small class="  text-body-secondary" ><strong>Ver más</strong></small></button>
                   </div>
               </div>
             </div>
             <div class="col"> <!--Caja Contenedora ARAUCO-->
-              <div class="card h-100">
-                <img src="assets/img/arauco.png" class="card-img-top" alt="Arauco">
-                <div class="card-body">
-                  <br><h5 class="card-title title1">Arauco</h5>
+              <div class="card h-100"><a href="https://arauco.com/chile/">
+                <img src="assets/img/arauco.png" class="card-img-top" alt="Arauco"></a>
+                <div class="card-body"><a href="https://arauco.com/chile/">
+                  <br><h5 class="card-title title1">Arauco</h5></a>
                   <p class="card-text">Proyecto realizado para Forestal Rio Claro, en la empresa Tutelkan Ltda. Software ERP implementado con Modelo Vista Controlador.</p>
                 </div>
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-success btn-sm" id="arauco">Ver más</button>
+                <div class="card-footer"  id="arauco">
+                  <button type="button" class="btn btn-warning"><small class="  text-body-secondary"><strong>Ver más</strong></small></button>
                 </div>
               </div>
             </div>
             <div class="col"> <!--Caja Contenedora GRAFITAL-->
-              <div class="card h-100">
-                <img src="assets/img/grafital.png" class="card-img-top" alt="Grafital">
-                <div class="card-body">
-                  <br><h5 class="card-title title1">Grafital</h5>
+              <div class="card h-100"><a href="https://sarycast.github.io/grafital/">
+                <img src="assets/img/grafital.png" class="card-img-top" alt="Grafital"></a>
+                <div class="card-body"><a href="https://sarycast.github.io/grafital/">
+                  <br><h5 class="card-title title1">Grafital</h5></a>
                   <p class="card-text">Proyecto realizado, para la empresa Grafital Ltda. Pagina Web para empresa dedicada a Impresiones y digitalización, Ploteo de Planos, Anillado y encuadernaciones, Fotografías gigantes, etc.</p>
                 </div>
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-success btn-sm" id="grafital">Ver más</button>
+                <div class="card-footer" id="grafital">
+                  <button type="button" class="btn btn-warning"><small class="  text-body-secondary" ><strong>Ver más</strong></small></button>
                 </div>
               </div>
             </div>
@@ -268,7 +269,7 @@
 <!-- TABLA DE EXPERIENCIA LABORAL-->
     <div id="laborales" class="bloque">
       <div class="container title1 sombreado">
-        <hr><button type="button" class="btn-close" aria-label="Close"></button><h4 style="margin-left: 10%;"><strong>Antecedentes Laborales</strong></h4><br>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end"><button type="button" class="btn-close  me-md-2 mt-2" aria-label="Close" id="inicial2"></button></div><h4 style="margin-left: 10%;"><strong>Antecedentes Laborales</strong></h4><br>
       
         <div class="container col-9">
             <table class="container table">
@@ -294,7 +295,7 @@
 <!-- TABLA DE ANTECEDENTES ACADEMICOS-->      
     <div id="academicos" class="bloque">
       
-      <div class="container title1 sombreado"><hr><button type="button" class="btn-close" aria-label="Close"></button><h4 style="margin-left: 10%;"><strong>Antecedentes Academicos</strong></h4><br>
+      <div class="container title1 sombreado"><div class="d-grid gap-2 d-md-flex justify-content-md-end"><button type="button" class="btn-close  me-md-2 mt-2" aria-label="Close" id="inicial3"></button></div><h4 style="margin-left: 10%;"><strong>Antecedentes Academicos</strong></h4><br>
         
           <div class="container col-10">
             
@@ -310,7 +311,7 @@
                   </tr>
                   <tr>
                     <th scope="row">2021</th>
-                    <td>Diplomado en Docencia en Enseñanza Superor, otorgado en la Pontificia Universidad Católica de Chile.</td>
+                    <td>Diplomado en Docencia en Enseñanza Superior, otorgado en la Pontificia Universidad Católica de Chile.</td>
                   </tr>
                   <tr>
                     <th scope="row">2018</th>

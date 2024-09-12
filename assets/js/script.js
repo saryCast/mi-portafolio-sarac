@@ -26,7 +26,21 @@ $(document).ready(function() {
         $("#detalles-rio-claro").hide();
     });
     
-
+    $("#inicial1").click(function() {
+        $("#mis-proyectos").hide();
+        $("#acerca-de").show();
+        
+    });
+    $("#inicial2").click(function() {
+        $("#laborales").hide();
+        $("#acerca-de").show();
+        
+    });
+    $("#inicial3").click(function() {
+        $("#academicos").hide();
+        $("#acerca-de").show();
+        
+    });
     $("#inicio").click(function() {
         $("#acerca-de").show();
         $("#laborales").hide();
